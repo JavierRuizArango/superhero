@@ -2,6 +2,7 @@
 public class Main {
     public static void main(String[] args) {
         SuperHero superPepe = new SuperHero(100, 100);
+        System.out.println("pepe el super pepe lucha por la justica");
         superPepe.setNombreHeroe("SuperPepe");
         superPepe.Poder(superPepe.getEnergia());
 
